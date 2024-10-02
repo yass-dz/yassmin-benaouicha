@@ -1,0 +1,29 @@
+.block1{
+    background-color: darkslategray;
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+body{
+    background-color: peachpuff
+}
+
+.block2{
+    margin-left: 20px;
+    height: 200px;
+    width: 150px;
+
+    background-color: darkslateblue;
+    float: right;
+}
+
+.block3{
+    margin-left: 20px;
+    height: 200px;
+    width: 150px;
+
+    background-color: cadetblue;
+    clear: both;
+}
