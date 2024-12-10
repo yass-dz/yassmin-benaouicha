@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCM BMW</title>
+    <link rel="stylesheet" href="qcm.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz BMW</h1>
+        <p>Testez vos connaissances sur BMW !</p>
+    </header>
+    <main>
+        <form id="quizForm">
+            <!-- Question 1 -->
+            <div class="question">
+                <p>1. En quelle année BMW a-t-elle été fondée ?</p>
+                <input type="radio" name="q1" value="1916" id="q1a"><label for="q1a">1916</label><br>
+                <input type="radio" name="q1" value="1923" id="q1b"><label for="q1b">1923</label><br>
+                <input type="radio" name="q1" value="1930" id="q1c"><label for="q1c">1930</label>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">
+                <p>2. Que signifie l'acronyme BMW ?</p>
+                <input type="radio" name="q2" value="Bayerische Motoren Werke" id="q2a"><label for="q2a">Bayerische Motoren Werke</label><br>
+                <input type="radio" name="q2" value="British Motor Works" id="q2b"><label for="q2b">British Motor Works</label><br>
+                <input type="radio" name="q2" value="Berlin Motoren Werke" id="q2c"><label for="q2c">Berlin Motoren Werke</label>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question">
+                <p>3. Dans quelle ville se trouve le siège social de BMW ?</p>
+                <input type="radio" name="q3" value="Munich" id="q3a"><label for="q3a">Munich</label><br>
+                <input type="radio" name="q3" value="Stuttgart" id="q3b"><label for="q3b">Stuttgart</label><br>
+                <input type="radio" name="q3" value="Berlin" id="q3c"><label for="q3c">Berlin</label>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question">
+                <p>4. Quel est le modèle 100% électrique phare de BMW ?</p>
+                <input type="radio" name="q4" value="BMW i4" id="q4a"><label for="q4a">BMW i4</label><br>
+                <input type="radio" name="q4" value="BMW X3" id="q4b"><label for="q4b">BMW X3</label><br>
+                <input type="radio" name="q4" value="BMW M4" id="q4c"><label for="q4c">BMW M4</label>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question">
+                <p>5. Quelle division de BMW fabrique des motos ?</p>
+                <input type="radio" name="q5" value="BMW Motorrad" id="q5a"><label for="q5a">BMW Motorrad</label><br>
+                <input type="radio" name="q5" value="BMW Dynamics" id="q5b"><label for="q5b">BMW Dynamics</label><br>
+                <input type="radio" name="q5" value="BMW Bikes" id="q5c"><label for="q5c">BMW Bikes</label>
+            </div>
+
+            <!-- Question 6 -->
+            <div class="question">
+                <p>6. Quel est le slogan actuel de BMW ?</p>
+                <input type="radio" name="q6" value="Sheer Driving Pleasure" id="q6a"><label for="q6a">Sheer Driving Pleasure</label><br>
+                <input type="radio" name="q6" value="Le plaisir de conduire" id="q6b"><label for="q6b">Le plaisir de conduire</label><br>
+                <input type="radio" name="q6" value="La puissance de la performance" id="q6c"><label for="q6c">La puissance de la performance</label>
+            </div>
+
+            <!-- Question 7 -->
+            <div class="question">
+                <p>7. Quels modèles appartiennent à la gamme M de BMW ? (choix multiples)</p>
+                <input type="checkbox" name="q7" value="BMW M3" id="q7a"><label for="q7a">BMW M3</label><br>
+                <input type="checkbox" name="q7" value="BMW M5" id="q7b"><label for="q7b">BMW M5</label><br>
+                <input type="checkbox" name="q7" value="BMW X5" id="q7c"><label for="q7c">BMW X5</label><br>
+                <input type="checkbox" name="q7" value="BMW i8" id="q7d"><label for="q7d">BMW i8</label>
+            </div>
+
+
+            <!-- Question 8 -->
+            <div class="question">
+                <p>8. Quelle est la couleur de fond du logo BMW ?</p>
+                <input type="radio" name="q8" value="Bleu ciel" id="q8a"><label for="q8a">Bleu ciel</label><br>
+                <input type="radio" name="q8" value="Rouge" id="q8b"><label for="q8b">Rouge</label><br>
+                <input type="radio" name="q8" value="Vert" id="q8c"><label for="q8c">Vert</label>
+            </div>
+
+            <!-- Question 9 -->
+            <div class="question">
+                <p>9. Quelle série de BMW est destinée aux familles ?</p>
+                <input type="radio" name="q9" value="Série 2 Active Tourer" id="q9a"><label for="q9a">Série 2 Active Tourer</label><br>
+                <input type="radio" name="q9" value="BMW Z4" id="q9b"><label for="q9b">BMW Z4</label><br>
+                <input type="radio" name="q9" value="Série 3" id="q9c"><label for="q9c">Série 3</label>
+            </div>
+
+            <!-- Question 10 -->
+            <div class="question">
+                <p>10. Quel est le premier modèle de voiture produit par BMW ?</p>
+                <input type="radio" name="q10" value="BMW 3/15" id="q10a"><label for="q10a">BMW 3/15</label><br>
+                <input type="radio" name="q10" value="BMW 328" id="q10b"><label for="q10b">BMW 328</label><br>
+                <input type="radio" name="q10" value="BMW 2002" id="q10c"><label for="q10c">BMW 2002</label>
+            </div>
+
+            <!-- Boutons -->
+            <div class="buttons">
+                <button type="button" id="btnCorrection">Correction</button>
+                <button type="button" id="btnCorrige">Corrigé</button>
+                <button type="reset" id="btnEffacer">Effacer</button>
+            </div>
+        </form>
+    </main>
+    <script src="qcm.js"></script>
+</body>
+</html>
